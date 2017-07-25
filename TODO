@@ -1,0 +1,3 @@
+* 「`」を含む行が存在するSRC_LIST のサポート
+  →現状では以下のエラーが発生し、バックアップがスキップされる。
+      rsync_backup.sh: 1: eval: Syntax error: EOF in backquote substitution
